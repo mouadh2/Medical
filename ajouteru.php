@@ -11,6 +11,7 @@ if(!isset($_SESSION['nom'])){
 
 <style>
 input[type=text] {
+    display:block;
   width: 20%;
   padding: 12px 20px;
   margin: 8px 0;

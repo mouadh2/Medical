@@ -54,7 +54,7 @@ body {
 }
 
 .subnav-content a:hover {
-  background-color: #fff;
+  background-color: red;
   color: black;
 }
 
@@ -66,35 +66,27 @@ body {
 }
 </style>
 
-
+<html>
 <div class="navbar">
   <div class="subnav">
-    <button class="subnavbtn">Users <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="ajouteru.php">add</a>
-      <a  href="afficheru.php">display</a>
-    </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">medical folder <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="ajouterdossier.php">Ajouter Dossier</a>
-      <a  href="ajouteretatdossier.php">Ajouter état d'un dossier</a>
-      <a href="afficherdossier.php">Afficher Dossier</a>
-    </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Registres <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="ajouterregister.php">add Register</a>
-      <a href="ajouteretatregistre.php">add state's register </a>
-      <a href="afficherregistreAdmission.php">Register admitted</a>
-      <a href="afficherregistreMaternité.php">Register's motherhood</a>
-      <a href="afficherregistreDeces.php">Register's death</a>
-    </div>
+    <a  href="index.php">Main Page</a>
   </div>
-  <a href="#contact">Contact</a>
+  <div class="subnav">
+    <button class="subnavbtn">Users </button>
+    <div class="subnav-content">
+      <a href="ajouteru.php">ADD user</a>
+      <a  href="afficheru.php">DISPLAY user</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Medical Folders </button>
+    <div class="subnav-content">
+      <a href="ajouterdossier.php">ADD folder </a>
+      <a href="afficherdossier.php">DISPLAY folder </a>
+    </div>
+  </div> 
   <div class="logout">
     <a href="logout.php" >LogOut</a>
   </div>
 </div>
+</html>

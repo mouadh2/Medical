@@ -14,6 +14,15 @@ $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $passwordd);
 ?>  
 <?php include_once 'sidebar.php'; ?>
 
+<style>
+    .tb1{
+        border:1px solid black;
+    }
+    tr:nth-child(even) {
+  background-color: #D6EEEE;
+    }
+</style>
+
 <div>
     <h2>_____</h2>
 <table class = "tb1">
