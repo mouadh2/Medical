@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if(!isset($_SESSION['nom'])){
-    header("location:/G_Archive/login.php");
+    header("location:/Archive/login.php");
 }else{
 $nom=  $_SESSION['nom'];
 $prenom=$_SESSION['prenom'];  
@@ -14,6 +14,12 @@ $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $passwordd);
 ?>
 <?php include_once 'sidebar.php'; ?>
 <h2>_____</h2>
+<form action="php/search.php" method="post" name="search">
+     <div class="search">
+        <input type="text" id="fnum" placeholder="enter folder N° ">
+        <button type="submit" style="width:80px">Search</button>
+     </div>
+</form>
 <style>
     .tb1{
         border:1px solid black;
