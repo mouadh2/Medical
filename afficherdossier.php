@@ -61,7 +61,7 @@ $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $passwordd);
                       "</td><td>".$data['date_sortie'].
                       "</td><td>".$data['date_archive'].
                       "</td><td><form action='php/supprimerD.php?id=".$data['numero_dossier']."' method='post'><td>
-                        <button type='submit' name='submit' class='btn btn-danger'>Supprimer</button></td></form></tr>";;
+                        <button type='submit' name='submit' class='btn'>Supprimer</button></td></form></tr>";;
                }
             ?>
         </tbody>
