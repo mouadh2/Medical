@@ -14,10 +14,10 @@ $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $passwordd);
 ?>
 <?php include_once 'sidebar.php'; ?>
 <h2>_____</h2>
-<form action="php/search.php" method="post" name="search">
+<form action="search.php" method="post" name="search">
      <div class="search">
-        <input type="text" id="fnum" placeholder="enter folder N° ">
-        <button type="submit" style="width:80px">Search</button>
+        <input type="text" id="titre" name="fname" placeholder="enter FOLDER N°  ... ">
+        <button type="submit" name="submit" style="width:80px">Search</button>
      </div>
 </form>
 <style>

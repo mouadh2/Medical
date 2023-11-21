@@ -64,6 +64,7 @@ body {
 .logout{
   float:right;
 }
+
 </style>
 
 <html>
